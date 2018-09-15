@@ -53,7 +53,7 @@ Afficher le tarif de la carte d'abonnemnt 5 places pour tous les âges (1 à 99 
 - pour chaque âge, calculer le tarif de la place, avec la réduction de l'abonnement
   - le pourcentage de réduction n'est pas le même selon l'âge
   - le pourcentage de réduction s'applique sur le tarif plein, réduit ou enfant, selon l'âge
-- générer le code HTML pour afficher le tarif (à droite de l'étape 2, merci `flex` :wink:)
+- générer le code HTML pour afficher le tarif (à droite du tarif du ticket)
 
 ## Etape 5
 
