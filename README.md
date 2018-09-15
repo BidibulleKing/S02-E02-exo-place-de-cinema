@@ -1,6 +1,7 @@
 # Exercice Places de cinéma
 
-Une intégration assez simpliste a été faite pour un site du cinéma Rodia de la ville d'Haut-Cloques.
+Une intégration assez simpliste a été faite pour un site du cinéma Rodia de la ville d'Haut-Cloques.  
+Nous disposons des fichiers HTML et CSS.
 
 ## Etape 1
 
@@ -53,3 +54,62 @@ Afficher le tarif de la carte d'abonnemnt 5 places pour tous les âges (1 à 99 
   - le pourcentage de réduction n'est pas le même selon l'âge
   - le pourcentage de réduction s'applique sur le tarif plein, réduit ou enfant, selon l'âge
 - générer le code HTML pour afficher le tarif (à droite de l'étape 2, merci `flex` :wink:)
+
+## Etape 5
+
+### Objectif
+
+Afficher les tarifs de tickets et des réductions des cartes d'abonnement dynamiquement
+
+### Comment faire ?
+
+- créer un tableau associatif contenant le nom de chaque tarif, et le montant
+- parcourir ce tableau pour générer le même code HTML qu'avant
+- créer un tableau associatif contenant le nom de chaque carte d'abonnement, et la réduction
+- parcourir ce tableau pour générer le même code HTML qu'avant
+
+## Etape 6
+
+### Objectif
+
+Pouvoir indiquer la diffusion de plus de 5 films dans le cinéma
+
+### Comment faire ?
+
+- ajouter un film dans le tableau de films existant
+- modifier la ou les boucles afin que le nombre d'index/clé soit automatiquement calculé
+
+## Etape 7
+
+### Objectif
+
+Afficher les horaires du diffusion du jour pour chaque film
+
+### Comment faire ?
+
+- trouver une fonction sur la documentation PHP permettant d'afficher la date du jour au format `jj/mm/aaaa`
+- afficher la date du jour au dessus de la liste des films
+- modifier le tableau de films existant pour que chaque élément soit un tableau associatif contenant les données suivantes :
+  - nom du film
+  - année du film
+  - tableau des horaires (pour chaque créneau horaire, "vrai" si diffusion, "false" sinon)
+- générer un tableau HTML
+  - 1 film par ligne
+  - 1 créneau horaire par colonne
+  - créneaux horaires de 10h à 0h
+  - créneaux horaires toutes les 2 heures
+
+## Etape 8
+
+### Objectif
+
+Mieux structuer notre code et bien respecter la séparation des concepts (déjà vu avec CSS/forme séparée de HTML/fond)
+
+### Comment faire ?
+
+- les fichiers PHP "appelés" par le navigateur ne contiennent que du PHP
+- ces fichiers incluent les fichiers de _templates_ nécessaires à générer un code source HTML correct
+- dans les templates, il ne doit plus y avoir de calculs ou traitement, mais uniquement de la lecture
+  - effectuer les calculs dans le fichier PHP "appelé"
+  - stocker les calculs dans une ou plusieurs variables, sous forme de tableau
+  - dans la template, parcourir le tableau
