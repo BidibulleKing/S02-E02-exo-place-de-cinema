@@ -103,7 +103,7 @@ Afficher les horaires du diffusion du jour pour chaque film
 
 ### Objectif
 
-Mieux structuer notre code et bien respecter la séparation des concepts (déjà vu avec CSS/forme séparée de HTML/fond)
+Mieux structurer notre code et bien respecter la séparation des concepts (déjà vu avec CSS/forme séparée de HTML/fond)
 
 ### Comment faire ?
 
