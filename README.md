@@ -14,7 +14,7 @@ Ne pas répéter le code et afficher le tarif pour l'âge du capitaine (43 ans).
 - reprendre les conditions écrites dans le challenge
 - créer une variable `$age` avec la valeur 43
 - afficher l'âge et le tarif dans le code HTML (`todo`)
-- pour ne pas répéter le code source dans nos fichiers, il faut utiliser l'inclusion de fichiers
+- pour ne pas répéter le code source **HTML** dans nos fichiers, il faut utiliser l'inclusion de fichiers
 
 ## Etape 2
 
