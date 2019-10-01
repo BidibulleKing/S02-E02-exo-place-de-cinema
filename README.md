@@ -87,17 +87,22 @@ Afficher les horaires du diffusion du jour pour chaque film
 
 ### Comment faire ?
 
+#### 1 page par film
+
+- créer un fichier php par film
+- modifier le tableau de films existant pour que le nom du film soit en clé et le nom du fichier php correspondant en valeur
+- lors de l'affichage de la liste de film, mettre un lien sur chaque film (envoyant sur son fichier)
+
+#### Horaires dans chaque page
+
 - trouver une fonction sur la documentation PHP permettant d'afficher la date du jour au format `jj/mm/aaaa`
 - afficher la date du jour au dessus de la liste des films
-- modifier le tableau de films existant pour que chaque élément soit un tableau associatif contenant les données suivantes :
-  - nom du film
-  - année du film
-  - tableau des horaires (pour chaque créneau horaire, "vrai" si diffusion, "false" sinon)
+- créer un tableau de données sur les horaires (pour chaque créneau horaire, "vrai" si diffusion, "false" sinon)
 - générer un tableau HTML
-  - 1 film par ligne
   - 1 créneau horaire par colonne
   - créneaux horaires de 10h à 0h
   - créneaux horaires toutes les 2 heures
+- le code HTML se répète d'une page "film" à l'autre ? :thinking:
 
 ## Etape 8
 
