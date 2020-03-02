@@ -45,7 +45,7 @@ Afficher la liste des films en salle
 
 ### Objectif
 
-Afficher le tarif de la carte d'abonnemnt 5 places pour tous les âges (1 à 99 ans)
+Afficher le tarif de la carte d'abonnement 5 places pour tous les âges (1 à 99 ans)
 
 ### Comment faire ?
 
