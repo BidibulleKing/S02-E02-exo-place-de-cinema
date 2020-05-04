@@ -7,7 +7,7 @@ Nous disposons des fichiers HTML et CSS.
 
 ### Objectif
 
-Ne pas répéter le code et afficher le tarif pour l'âge du capitaine (43 ans).
+Ne pas répéter le code HTML et afficher le tarif pour l'âge du capitaine (43 ans).
 
 ### Comment faire ?
 
