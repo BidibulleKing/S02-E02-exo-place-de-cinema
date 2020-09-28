@@ -83,6 +83,21 @@ Pouvoir indiquer la diffusion de plus de 5 films dans le cinéma
 
 ### Objectif
 
+Mieux structurer notre code et bien respecter la séparation des concepts (déjà vu avec CSS/forme séparée de HTML/fond)
+
+### Comment faire ?
+
+- les fichiers PHP "appelés" par le navigateur ne contiennent que du PHP
+- ces fichiers incluent les fichiers de _templates_ nécessaires à générer un code source HTML correct
+- dans les templates, il ne doit plus y avoir de calculs ou traitement, mais uniquement de la lecture
+  - effectuer les calculs dans le fichier PHP "appelé"
+  - stocker les calculs dans une ou plusieurs variables, sous forme de tableau
+  - dans la template, parcourir le tableau
+
+## Bonus
+
+### Objectif
+
 Afficher les horaires du diffusion du jour pour chaque film
 
 ### Comment faire ?
@@ -103,18 +118,3 @@ Afficher les horaires du diffusion du jour pour chaque film
   - créneaux horaires de 10h à 0h
   - créneaux horaires toutes les 2 heures
 - le code HTML se répète d'une page "film" à l'autre ? :thinking:
-
-## Etape 8
-
-### Objectif
-
-Mieux structurer notre code et bien respecter la séparation des concepts (déjà vu avec CSS/forme séparée de HTML/fond)
-
-### Comment faire ?
-
-- les fichiers PHP "appelés" par le navigateur ne contiennent que du PHP
-- ces fichiers incluent les fichiers de _templates_ nécessaires à générer un code source HTML correct
-- dans les templates, il ne doit plus y avoir de calculs ou traitement, mais uniquement de la lecture
-  - effectuer les calculs dans le fichier PHP "appelé"
-  - stocker les calculs dans une ou plusieurs variables, sous forme de tableau
-  - dans la template, parcourir le tableau
