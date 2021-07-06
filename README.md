@@ -1,7 +1,10 @@
-# Exercice Places de cinéma
+# :movie_camera: Exercice Cinéma
 
-Une intégration assez simpliste a été faite pour un site du cinéma Rodia de la ville d'Haut-Cloques.  
-Nous disposons des fichiers HTML et CSS.
+Une intégration a été réalisée par un prestataire externe pour le site du cinéma Rodia de la ville d'Haut-Cloques. La directrice du cinéma nous a choisi pour finaliser le travail. :handshake:
+
+Pour le moment, nous disposons uniquement des fichiers HTML et CSS, et pourtant c'est tout ce qu'il nous faut pour commencer à pratiquer PHP et mieux comprendre ce que ce langage va nous apporter. :+1:
+
+3, 2, 1... première mise en situation avec PHP, moteur ! :clapper:
 
 ## Etape 1
 
