@@ -14,10 +14,12 @@ Ne pas répéter le code HTML et afficher le tarif pour l'âge du capitaine (43 
 
 ### Comment faire ?
 
-- reprendre les conditions écrites dans le challenge
-- créer une variable `$age` avec la valeur 43
-- afficher l'âge et le tarif dans le code HTML (`todo`)
+- créer les fichiers PHP correspondants aux fichiers HTML fournis
 - pour ne pas répéter le code source **HTML** dans nos fichiers, il faut utiliser l'inclusion de fichiers
+- dans le fichier PHP générant la page des tarifs :
+  - reprendre les conditions écrites dans le challenge
+  - créer une variable `$age` avec la valeur 43
+  - afficher l'_âge_ et le _tarif_
 
 ## Etape 2
 
