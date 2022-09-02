@@ -22,33 +22,6 @@
           Le Rodia
         </div>
       </h1>
-
-      <nav class="header__menu">
-        <ul class="header__menu-container">
-          <li class="header__menu-item header__menu-item--active">
-            <a href="index.html">Accueil</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">En salle</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="tarifs.html">Tarifs</a>
-          </li>
-          <li class="header__menu-item">
-            <a href="#">Nous contacter</a>
-          </li>
-        </ul>
-      </nav>
-
+      <?php include("nav.php"); ?>
     </div>
-  </header>
-  <main class="main-container">
-    <section>
-      <h2 class="page__title">Bienvenue au Cinéma Rodia</h2>
-    </section>
-  </main>
-  <footer class="footer">
-    Cinéma Rodia - 42, avenue Foch, Haut-Cloques &copy; Tous droits réservés
-  </footer>
-</body>
-</html>
+</header>
